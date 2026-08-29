@@ -21,7 +21,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -52,7 +53,7 @@
 <section class="page-intro">
   <div class="container">
     <span class="eyebrow">Case Study · Web + SEO</span>
-    <img src="images/clients/fernie-fox-hotel.png" alt="Fernie Fox Hotel logo" style="height:56px; width:auto; margin:6px 0 18px;">
+    <img src="images/clients/fernie-fox-hotel.png" alt="Fernie Fox Hotel logo" style="height:56px; width:auto; margin:6px 0 18px;" loading="lazy">
     <h1>Fernie Fox Hotel: from quiet homepage to a real booking driver.</h1>
     <p class="hero-sub" style="color:var(--muted); max-width:65ch;">A full website rebuild paired with a year of ongoing local SEO work, measured against the same month one year apart.</p>
   </div>
@@ -146,7 +147,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-col">
-        <div class="logo"><img src="images/logo-white.png" alt="birr" width="83" height="39"></div>
+        <div class="logo"><img src="images/logo-white.png" alt="birr" width="83" height="39" loading="lazy"></div>
         <p>Web development and SEO for established, growing companies in Fernie, the Kootenays, and beyond.</p>
       </div>
       <div class="footer-col">
